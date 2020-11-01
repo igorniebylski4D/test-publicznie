@@ -1,0 +1,106 @@
+body * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI";
+}
+
+body{
+    background-color: #F0E7D8;
+}
+
+body div {
+    justify-content: center;
+    margin-left: 10%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #A63A50;
+    display: flex;
+    flex-direction: column;
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+
+li{
+    text-decoration: none;
+    width: 80%;
+    text-align: center;
+}
+
+a{
+    color: #F0E7D8;
+    text-align: center;
+    text-decoration: none;
+}
+
+header h1 {
+    color: #F0E7D8;
+    text-align: center;
+}
+
+section{
+    margin: 1em;
+}
+
+article{
+    margin: 1em;
+}
+
+footer{
+    padding-top: .5em;
+    padding-bottom: .5em;
+    text-align: center;
+    background-color: #A63A50;
+    color: #F0E7D8;
+}
+
+p{
+    color: #A63A50;
+}
+
+.sekcja-jeden{
+    display: flex;
+    width:90%;
+    margin-left:5%;
+}
+
+.sekcja-jeden img{
+    width:10%;
+}
+
+.sekcja-dwa{
+    width:90%;
+    margin-left:5%;
+    display: flex;
+}
+
+.sekcja-dwa img{
+    width:10%;
+}
+
+.artykul-dwa{
+    width:50%;
+}
+
+.sekcja-trzy{
+    width:90%;
+    margin-left:5%;
+    display: flex;
+}
+
+.artykul-trzy{
+    width: 30%;
+    margin: 1%;
+    text-align: center;
+    background-color: #C88786;
+}
